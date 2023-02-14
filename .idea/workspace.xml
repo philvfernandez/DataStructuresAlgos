@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 21 - Coding exercise 1.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 23 - Added append method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/linkedlist/LinkedList.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676325531157</updated>
-      <workItem from="1676325532292" duration="5300000" />
+      <workItem from="1676325532292" duration="6837000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676334848858</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Section 23 - Added append method.">
+      <created>1676344996995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676344996995</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +121,8 @@
     <MESSAGE value="Adding default project and updated .gitignore" />
     <MESSAGE value="Section 20 - Added Linked List, Node and Main classes." />
     <MESSAGE value="Section 21 - Coding exercise 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 21 - Coding exercise 1." />
+    <MESSAGE value="Section 23 - Added append method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23 - Added append method." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

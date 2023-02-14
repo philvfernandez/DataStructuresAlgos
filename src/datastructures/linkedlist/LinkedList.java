@@ -62,6 +62,31 @@ public class LinkedList {
         length++;
     }
 
+    public Node removeLast() {
+        //test if list is empty;
+        if(length == 0) {
+            return null;
+        }
+
+        Node temp = head;
+        Node pre = head;
+
+        while(temp.next != null) {
+            pre = temp;
+            temp = temp.next;
+        }
+        tail = pre;
+        tail.next = null;
+        length--;
+
+        //test for edge case of 1 node but a length of 0
+        if(length == 0) {
+            head = null;
+            tail = null;
+        }
+        return temp;
+    }
+
     class Node {
         int value;
         Node next;

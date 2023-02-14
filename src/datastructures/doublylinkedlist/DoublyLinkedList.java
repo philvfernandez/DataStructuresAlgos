@@ -50,6 +50,27 @@ public class DoublyLinkedList {
         length++;
     }
 
+    public Node removeLast() {
+
+        //When we have no items in the list
+        if (length == 0) {
+            return null;
+        }
+
+        Node temp = tail;
+        //When we have only one item in the list.
+        if(length == 1) {
+            head = null;
+            tail = null;
+        } else { //When we have two or more items in the list.
+            tail = tail.prev;
+            tail.next = null;
+            tail.prev = null;
+        }
+        length--;
+        return temp;
+    }
+
     class Node {
         int value;
         Node next;

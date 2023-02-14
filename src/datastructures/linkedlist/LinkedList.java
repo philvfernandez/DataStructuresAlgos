@@ -1,6 +1,8 @@
 package datastructures.linkedlist;
 
 
+import java.util.prefs.NodeChangeEvent;
+
 public class LinkedList {
 
     private Node head;
@@ -42,6 +44,22 @@ public class LinkedList {
 
     public void getLength() {
         System.out.println("Length: " + length);
+    }
+
+    public void append(int value) {
+        //create new node
+        Node newNode = new Node(value);
+
+        //test for an empty list
+        //could also test length == 0
+        if(head == null || tail == null) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+        length++;
     }
 
     class Node {

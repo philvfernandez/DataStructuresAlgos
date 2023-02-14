@@ -138,6 +138,33 @@ public class LinkedList {
         return false;
     }
 
+    public boolean insert(int index, int value) {
+        //test for out of range.
+        if(index < 0 || index > length) {
+            return false;
+        }
+
+        //insert at the beginning of list.
+        if(index == 0) {
+            prepend(value);
+            return true;
+        }
+
+        //insert at the end of list.
+        if(index == length) {
+            append(value);
+            return true;
+        }
+
+        Node newNode = new Node(value);
+        Node temp = get(index - 1);
+        newNode.next = temp.next;
+        temp.next = newNode;
+        length++;
+        return true;
+
+    }
+
     class Node {
         int value;
         Node next;

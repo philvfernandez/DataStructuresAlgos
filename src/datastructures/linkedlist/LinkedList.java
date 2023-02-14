@@ -87,6 +87,21 @@ public class LinkedList {
         return temp;
     }
 
+    public Node removeFirst() {
+        if(length == 0) { //handles empty list.
+            return null;
+        }
+        Node temp = head;
+        head = head.next;
+        temp.next = null;
+        length--;
+        if(length == 0) { //handles edge case where only one node is on the list.
+            tail = null;
+        }
+        return temp;
+
+    }
+
     public void prepend(int value) {
         //create new node
         Node newNode = new Node(value);

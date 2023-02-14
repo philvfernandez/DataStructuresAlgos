@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 24/25 - Added remove last method.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 26 - added prepend method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/linkedlist/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676325531157</updated>
-      <workItem from="1676325532292" duration="7518000" />
+      <workItem from="1676325532292" duration="9930000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -116,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676346576476</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Section 26 - added prepend method.">
+      <created>1676347137463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676347137463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +138,8 @@
     <MESSAGE value="Section 21 - Coding exercise 1." />
     <MESSAGE value="Section 23 - Added append method." />
     <MESSAGE value="Section 24/25 - Added remove last method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 24/25 - Added remove last method." />
+    <MESSAGE value="Section 26 - added prepend method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 26 - added prepend method." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

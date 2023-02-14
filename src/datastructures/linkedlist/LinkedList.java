@@ -87,6 +87,21 @@ public class LinkedList {
         return temp;
     }
 
+    public void prepend(int value) {
+        //create new node
+        Node newNode = new Node(value);
+
+        //test of empty list
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+        length++;
+    }
+
     class Node {
         int value;
         Node next;

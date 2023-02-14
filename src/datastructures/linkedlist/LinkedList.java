@@ -1,6 +1,7 @@
 package datastructures.linkedlist;
 
 
+import java.time.chrono.MinguoDate;
 import java.util.prefs.NodeChangeEvent;
 
 public class LinkedList {
@@ -115,6 +116,17 @@ public class LinkedList {
             head = newNode;
         }
         length++;
+    }
+
+    public Node get(int index) {
+        if(index < 0 || index >= length) {
+            return null;
+        }
+        Node temp = head;
+        for(int i=0;i<index;i++) {
+            temp = temp.next;
+        }
+        return temp;
     }
 
     class Node {

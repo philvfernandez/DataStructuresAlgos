@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 37 - Added remove first method for doubly linked list.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 38 - Added get method for doubly linked list.">
       <change beforePath="$PROJECT_DIR$/src/datastructures/doublylinkedlist/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/doublylinkedlist/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/doublylinkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/doublylinkedlist/Main.java" afterDir="false" />
     </list>
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676325531157</updated>
-      <workItem from="1676325532292" duration="22587000" />
+      <workItem from="1676325532292" duration="22895000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -201,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676430970728</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Section 38 - Added get method for doubly linked list.">
+      <created>1676431640066</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676431640066</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +233,8 @@
     <MESSAGE value="Section 35 - Added removeLast method for doubly linked list." />
     <MESSAGE value="Section 36 - Added prepend method for doubly linked list." />
     <MESSAGE value="Section 37 - Added remove first method for doubly linked list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 37 - Added remove first method for doubly linked list." />
+    <MESSAGE value="Section 38 - Added get method for doubly linked list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 38 - Added get method for doubly linked list." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

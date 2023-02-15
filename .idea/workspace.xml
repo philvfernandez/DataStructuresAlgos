@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 48 - Added enqueue method.">
-      <change beforePath="$PROJECT_DIR$/src/datastructures/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/queue/Queue.java" afterDir="false" />
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 49 - Added dequeue method.">
+      <change afterPath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676325531157</updated>
-      <workItem from="1676325532292" duration="27702000" />
+      <workItem from="1676325532292" duration="29534000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676499718522</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Section 49 - Added dequeue method.">
+      <created>1676500284948</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676500284949</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +286,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 20 - Added Linked List, Node and Main classes." />
     <MESSAGE value="Section 21 - Coding exercise 1." />
     <MESSAGE value="Section 23 - Added append method." />
     <MESSAGE value="Section 24/25 - Added remove last method." />
@@ -303,7 +310,8 @@
     <MESSAGE value="Section 45 - Added pop method." />
     <MESSAGE value="Section 47 - Added Queue class." />
     <MESSAGE value="Section 48 - Added enqueue method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 48 - Added enqueue method." />
+    <MESSAGE value="Section 49 - Added dequeue method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 49 - Added dequeue method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

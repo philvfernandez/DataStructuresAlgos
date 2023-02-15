@@ -162,6 +162,32 @@ public class DoublyLinkedList {
         return true;
     }
 
+    public Node remove(int index) {
+        if(index < 0 || index >= length) {
+            return null;
+        }
+
+        //remove first node in the list
+        if(index == 0) {
+            return removeFirst();
+        }
+
+        //Remove last node in the list
+        if(index == length -1 ) {
+            return removeLast();
+        }
+
+        Node temp = get(index);
+        temp.next.prev = temp.prev;
+        temp.prev.next = temp.next;
+        temp.next = null;
+        temp.prev = null;
+
+        length--;
+        return temp;
+
+    }
+
     class Node {
         int value;
         Node next;

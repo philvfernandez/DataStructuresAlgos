@@ -1,5 +1,6 @@
 package datastructures.doublylinkedlist;
 
+import datastructures.linkedlist.LinkedList;
 import org.w3c.dom.Node;
 
 public class DoublyLinkedList {
@@ -69,6 +70,21 @@ public class DoublyLinkedList {
         }
         length--;
         return temp;
+    }
+
+    public void prepend(int value) {
+        //create new node
+        Node newNode = new Node(value);
+
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
+        }
+        length++;
     }
 
     class Node {

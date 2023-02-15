@@ -87,6 +87,26 @@ public class DoublyLinkedList {
         length++;
     }
 
+    public Node removeFirst() {
+
+        //List is empty
+        if(length == 0) {
+            return null;
+        }
+        Node temp = head;
+        //When we have 1 item in the linked list.
+        if(length == 1) {
+            head = null;
+            tail = null;
+        } else { //Two or more items in the Linked list.
+            head = head.next;
+            head.prev = null;
+            temp.next = null;
+        }
+        length--;
+        return temp;
+    }
+
     class Node {
         int value;
         Node next;

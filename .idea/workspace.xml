@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 43 - Added Stack, Node and Main classes.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 44 - Added push method.">
       <change beforePath="$PROJECT_DIR$/src/datastructures/stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/stack/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/stack/Stack.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676325531157</updated>
-      <workItem from="1676325532292" duration="25425000" />
+      <workItem from="1676325532292" duration="25725000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676482788274</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Section 44 - Added push method.">
+      <created>1676483040335</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1676483040335</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,8 @@
     <MESSAGE value="Section 40 - Added insert method for doubly linked list." />
     <MESSAGE value="Section 41 - Added remove method for doubly linked list." />
     <MESSAGE value="Section 43 - Added Stack, Node and Main classes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 43 - Added Stack, Node and Main classes." />
+    <MESSAGE value="Section 44 - Added push method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 44 - Added push method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

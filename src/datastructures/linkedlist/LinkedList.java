@@ -1,10 +1,4 @@
 package datastructures.linkedlist;
-
-
-import java.awt.desktop.AppReopenedEvent;
-import java.time.chrono.MinguoDate;
-import java.util.prefs.NodeChangeEvent;
-
 public class LinkedList {
 
     private Node head;

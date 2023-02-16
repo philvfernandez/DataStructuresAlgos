@@ -52,6 +52,35 @@ public class BinarySearchTree {
 
     }
 
+    /*
+    Steps:
+    //root -> null
+    if(root == null) return false
+    temp = root
+    while(temp != null)
+      if < left
+      else if > right
+      else == return true
+
+    //temp == null
+    return false
+     */
+    public boolean contains(int value) {
+        //if(root == null) return false; //Not as clean as this step is not really needed.
+        Node temp = root;
+        while(temp != null) {
+            if(value < temp.value) {
+                temp = temp.left;
+            } else if(value > temp.value) {
+                temp = temp.right;
+
+            } else { //if value is equal to node value in tree
+                return true;
+            }
+        }
+        return false;
+    }
+
     class Node {
         int value;
         Node left;

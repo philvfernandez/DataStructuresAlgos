@@ -33,6 +33,16 @@ public class HashTable {
         }
     }
 
+    public int get(String key) {
+        int index = hash(key);
+        Node tempNode = dataMap[index]; //array of pointers to nodes.
+        while (tempNode != null) {
+            if(tempNode.key == key) return tempNode.value;
+            tempNode = tempNode.next;
+        }
+        return 0;
+    }
+
 
     public void printTable() {
         for(int i = 0;i<dataMap.length;i++) {

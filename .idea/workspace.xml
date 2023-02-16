@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 61 - Created new hash method.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 62 - Created set hash method.">
       <change beforePath="$PROJECT_DIR$/src/datastructures/hashtable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/hashtable/HashTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676325531157</updated>
-      <workItem from="1676325532292" duration="35858000" />
+      <workItem from="1676325532292" duration="36237000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676587330681</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Section 62 - Created set hash method.">
+      <created>1676587768039</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1676587768039</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +327,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 28 - added get method." />
     <MESSAGE value="Section 29 - added set method." />
     <MESSAGE value="Section 30 - added insert method." />
     <MESSAGE value="Section 31 - added remove method." />
@@ -345,7 +351,8 @@
     <MESSAGE value="Section 56/57 - Added contains method." />
     <MESSAGE value="Section 60 - Created new HashTable class, constructor and main class." />
     <MESSAGE value="Section 61 - Created new hash method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 61 - Created new hash method." />
+    <MESSAGE value="Section 62 - Created set hash method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 62 - Created set hash method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

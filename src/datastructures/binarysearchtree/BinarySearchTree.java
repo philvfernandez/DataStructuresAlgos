@@ -81,6 +81,23 @@ public class BinarySearchTree {
         return false;
     }
 
+    private boolean rContains(Node currentNode, int value) {
+        if(currentNode == null) return false;
+
+        if(currentNode.value == value) return true;
+
+        if(value < currentNode.value) {
+            return rContains(currentNode.left, value);
+        } else {
+            return rContains(currentNode.right, value);
+        }
+    }
+
+    //Method overloading - same method name but different arguments passed to the method.
+    public boolean rContains(int value) {
+        return rContains(root, value);
+    }
+
     class Node {
         int value;
         Node left;

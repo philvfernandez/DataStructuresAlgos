@@ -98,6 +98,28 @@ public class BinarySearchTree {
         return rContains(root, value);
     }
 
+    private Node rInsert(Node currentNode, int value) {
+        //base case
+        if(currentNode == null) return new Node(value);
+
+        //recursive case
+        if(value < currentNode.value) {
+            currentNode.left = rInsert(currentNode.left, value);
+        } else if(value > currentNode.value){
+            currentNode.right = rInsert(currentNode.right, value);
+        }
+
+        //pointer to existing node with value
+        return currentNode;
+    }
+
+    public void rInsert(int value) {
+        //edge case to insert into an empty tree.
+        if(root == null) root = new Node(value);
+
+        rInsert(root, value);
+    }
+
     class Node {
         int value;
         Node left;

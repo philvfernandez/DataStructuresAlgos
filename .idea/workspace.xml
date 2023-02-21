@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 64 - Created keys method that returns the keys given in our hash map.">
-      <change afterPath="$PROJECT_DIR$/src/datastructures/graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datastructures/graph/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 71 - Added add vertex method to new Graph class.  Also added main class for testing new graph and adding vertex.">
+      <change beforePath="$PROJECT_DIR$/src/datastructures/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/graph/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <workItem from="1676325532292" duration="38631000" />
       <workItem from="1676591145250" duration="902000" />
       <workItem from="1676592064995" duration="54000" />
-      <workItem from="1676592168605" duration="1464000" />
+      <workItem from="1676592168605" duration="1772000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -343,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676588786852</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Section 71 - Added add vertex method to new Graph class.  Also added main class for testing new graph and adding vertex.">
+      <created>1677002631160</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1677002631160</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +357,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 31 - added remove method." />
     <MESSAGE value="Section 32 - added reverse method." />
     <MESSAGE value="Section 34 - Created package for Doubly linked list and new class with associated methods." />
     <MESSAGE value="Section 34 - Added append method for doubly linked list!!" />
@@ -377,7 +381,8 @@
     <MESSAGE value="Section 62 - Created set hash method." />
     <MESSAGE value="Section 62 - Created get hash method." />
     <MESSAGE value="Section 64 - Created keys method that returns the keys given in our hash map." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 64 - Created keys method that returns the keys given in our hash map." />
+    <MESSAGE value="Section 71 - Added add vertex method to new Graph class.  Also added main class for testing new graph and adding vertex." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 71 - Added add vertex method to new Graph class.  Also added main class for testing new graph and adding vertex." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

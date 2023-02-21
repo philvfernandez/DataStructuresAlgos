@@ -131,11 +131,22 @@ public class BinarySearchTree {
         } else {
             /*
             found the value we are looking for but in one of the following specific cases:
-              1) What we are trying to delete is a left node.
+              1) What we are trying to delete is a leaf node.
               2) There is a node on the right but not the left.
               3) There is a node on the left but not the right.
               4) Or there is a node on each side, right and left.
              */
+
+            //Case #1 - Deleting a leaf node
+            if(currentNode.left == null && currentNode.right == null) {
+                return null;
+            } else if(currentNode.left == null) { //Case #2 - There is a node on the right but not the left.
+                currentNode = currentNode.right;
+            } else if(currentNode.right == null) { //Case #3 - There is a node on the left but not the right.
+                currentNode = currentNode.left;
+            } else { //Case #4 - There is a node on each side, right and left.
+
+            }
 
 
         }

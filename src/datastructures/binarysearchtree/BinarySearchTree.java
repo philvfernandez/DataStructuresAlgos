@@ -154,6 +154,13 @@ public class BinarySearchTree {
 
     }
 
+    public int minValue(Node currentNode) {
+        while (currentNode.left != null) {
+            currentNode = currentNode.left;
+        }
+        return currentNode.value;
+    }
+
     public void deleteNode(int value) {
         deleteNode(root, value);
     }

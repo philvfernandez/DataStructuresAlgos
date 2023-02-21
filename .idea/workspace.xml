@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 82 - Added delete code to BST class for part 2 of 3.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 83 - Added minimum value method to return the min value of a binary tree.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/binarysearchtree/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <workItem from="1676325532292" duration="38631000" />
       <workItem from="1676591145250" duration="902000" />
       <workItem from="1676592064995" duration="54000" />
-      <workItem from="1676592168605" duration="8274000" />
+      <workItem from="1676592168605" duration="8900000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -404,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677016599619</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Section 83 - Added minimum value method to return the min value of a binary tree.">
+      <created>1677016977730</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677016977730</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +422,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 40 - Added insert method for doubly linked list." />
     <MESSAGE value="Section 41 - Added remove method for doubly linked list." />
     <MESSAGE value="Section 43 - Added Stack, Node and Main classes." />
     <MESSAGE value="Section 44 - Added push method." />
@@ -438,7 +446,8 @@
     <MESSAGE value="Section 79 - Added rBST insert recursive method to Binary Search Tree class." />
     <MESSAGE value="Section 81 - Added delete code to BST class for part 1 of 3." />
     <MESSAGE value="Section 82 - Added delete code to BST class for part 2 of 3." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 82 - Added delete code to BST class for part 2 of 3." />
+    <MESSAGE value="Section 83 - Added minimum value method to return the min value of a binary tree." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 83 - Added minimum value method to return the min value of a binary tree." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

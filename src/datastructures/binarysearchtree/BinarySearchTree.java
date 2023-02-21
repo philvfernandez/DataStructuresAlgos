@@ -145,13 +145,12 @@ public class BinarySearchTree {
             } else if(currentNode.right == null) { //Case #3 - There is a node on the left but not the right.
                 currentNode = currentNode.left;
             } else { //Case #4 - There is a node on each side, right and left.
-
+                int subTreeMin = minValue(currentNode.right);
+                currentNode.value = subTreeMin;
+                currentNode.right = deleteNode(currentNode.right,subTreeMin);
             }
-
-
         }
         return currentNode;
-
     }
 
     public int minValue(Node currentNode) {

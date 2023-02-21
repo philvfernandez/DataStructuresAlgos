@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 78 - Added rBST Contains method to Binary Search Tree class.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 79 - Added rBST insert recursive method to Binary Search Tree class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" afterDir="false" />
     </list>
@@ -67,7 +67,7 @@
       <workItem from="1676325532292" duration="38631000" />
       <workItem from="1676591145250" duration="902000" />
       <workItem from="1676592064995" duration="54000" />
-      <workItem from="1676592168605" duration="6488000" />
+      <workItem from="1676592168605" duration="7281000" />
     </task>
     <task id="LOCAL-00001" summary="Adding default project and updated .gitignore">
       <created>1676332633522</created>
@@ -384,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677014412918</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Section 79 - Added rBST insert recursive method to Binary Search Tree class.">
+      <created>1677015307558</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1677015307558</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +400,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 37 - Added remove first method for doubly linked list." />
     <MESSAGE value="Section 38 - Added get method for doubly linked list." />
     <MESSAGE value="Section 39 - Added set method for doubly linked list." />
     <MESSAGE value="Section 40 - Added insert method for doubly linked list." />
@@ -418,7 +424,8 @@
     <MESSAGE value="Section 74 - Added remove vertex method to Graph class." />
     <MESSAGE value="Section 77 - Added factorial example for factorial section." />
     <MESSAGE value="Section 78 - Added rBST Contains method to Binary Search Tree class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 78 - Added rBST Contains method to Binary Search Tree class." />
+    <MESSAGE value="Section 79 - Added rBST insert recursive method to Binary Search Tree class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 79 - Added rBST insert recursive method to Binary Search Tree class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

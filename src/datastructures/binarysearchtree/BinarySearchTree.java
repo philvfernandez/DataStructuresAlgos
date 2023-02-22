@@ -1,6 +1,7 @@
 package datastructures.binarysearchtree;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -196,6 +197,24 @@ public class BinarySearchTree {
                 queue.add(currentNode.right);
             }
         }
+        return results;
+    }
+
+    public ArrayList<Integer> DFSPreOrder() {
+        ArrayList<Integer> results = new ArrayList<>();
+
+        class Traverse { //Java hack to have a method inside of a method.
+            Traverse(Node currentNode) {
+                results.add(currentNode.value);
+                if(currentNode.left != null) {
+                    new Traverse(currentNode.left);
+                }
+                if(currentNode.right != null) {
+                    new Traverse(currentNode.right);
+                }
+            }
+        }
+        new Traverse(root);
         return results;
     }
 

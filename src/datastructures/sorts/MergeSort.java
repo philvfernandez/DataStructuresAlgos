@@ -1,5 +1,7 @@
 package datastructures.sorts;
 
+import java.util.Arrays;
+
 public class MergeSort {
 
     public int[] merge(int[] array1, int[] array2) {
@@ -32,5 +34,16 @@ public class MergeSort {
             j++;
         }
         return combined;
+    }
+
+    public int[] mergeSort(int[] array) {
+        //base case
+        if(array.length == 1) return array;
+
+        int midIndex = array.length / 2;
+        int[] left = mergeSort(Arrays.copyOfRange(array, 0, midIndex));
+        int[] right = mergeSort(Arrays.copyOfRange(array, midIndex, array.length));
+
+        return merge(left,right);
     }
 }

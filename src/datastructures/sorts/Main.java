@@ -16,11 +16,20 @@ public class Main {
 
         System.out.println(Arrays.toString(myArray)); */
 
-        //Merge sort
-        int[] array1 = {1,3,7,8};
+        //Merge
+        /* int[] array1 = {1,3,7,8};
         int[] array2 = {2,4,5,6};
         MergeSort mergeSort = new MergeSort();
 
-        System.out.println(Arrays.toString(mergeSort.merge(array1,array2)));
+        System.out.println(Arrays.toString(mergeSort.merge(array1,array2))); */
+
+        //MergeSort
+        MergeSort myMergeSort = new MergeSort();
+        int[] originalArray = {3,1,4,2};
+
+        int[] sortedArray = myMergeSort.mergeSort(originalArray);
+
+        System.out.println("Original Array: " + Arrays.toString(originalArray));
+        System.out.println("Sorted Array: " + Arrays.toString(sortedArray));
     }
 }

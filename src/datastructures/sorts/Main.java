@@ -24,12 +24,19 @@ public class Main {
         System.out.println(Arrays.toString(mergeSort.merge(array1,array2))); */
 
         //MergeSort
-        MergeSort myMergeSort = new MergeSort();
+       /* MergeSort myMergeSort = new MergeSort();
         int[] originalArray = {3,1,4,2};
 
         int[] sortedArray = myMergeSort.mergeSort(originalArray);
 
         System.out.println("Original Array: " + Arrays.toString(originalArray));
-        System.out.println("Sorted Array: " + Arrays.toString(sortedArray));
+        System.out.println("Sorted Array: " + Arrays.toString(sortedArray)); */
+
+        //Quick Sort
+        QuickSort quickSort = new QuickSort();
+        int[] myArray2 = {4,6,1,7,3,2,5};
+        int returnedInex = quickSort.pivot(myArray2, 0, 6);
+        System.out.println("Returned Index: " + returnedInex);
+        System.out.println(Arrays.toString(myArray2));
     }
 }

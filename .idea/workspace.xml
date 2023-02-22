@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 94 - Added new MergeSort class and merge method.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 96 - Added new MergeSort class and mergeSort method.">
+      <change afterPath="$PROJECT_DIR$/src/datastructures/sorts/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/sorts/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/sorts/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/sorts/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/sorts/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +69,7 @@
       <workItem from="1676591145250" duration="902000" />
       <workItem from="1676592064995" duration="54000" />
       <workItem from="1676592168605" duration="9020000" />
-      <workItem from="1677017979220" duration="5257000" />
-    </task>
-    <task id="LOCAL-00007" summary="Section 23 - Added append method.">
-      <created>1676344996995</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1676344996995</updated>
+      <workItem from="1677017979220" duration="7921000" />
     </task>
     <task id="LOCAL-00008" summary="Section 24/25 - Added remove last method.">
       <created>1676346576476</created>
@@ -413,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677091972759</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Section 96 - Added new MergeSort class and mergeSort method.">
+      <created>1677093120207</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1677093120208</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +423,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 49 - Added dequeue method." />
     <MESSAGE value="Section 53 - Added initial BST class." />
     <MESSAGE value="Section 55 - Added insert method." />
     <MESSAGE value="Section 56/57 - Added contains method." />
@@ -447,7 +447,8 @@
     <MESSAGE value="Section 88 - Refactored the selection sort method into a new class called SelectionSort." />
     <MESSAGE value="Section 89 - Added new class and method for insertion sort." />
     <MESSAGE value="Section 94 - Added new MergeSort class and merge method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 94 - Added new MergeSort class and merge method." />
+    <MESSAGE value="Section 96 - Added new MergeSort class and mergeSort method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 96 - Added new MergeSort class and mergeSort method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

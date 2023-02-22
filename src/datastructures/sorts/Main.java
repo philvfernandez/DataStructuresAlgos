@@ -35,8 +35,7 @@ public class Main {
         //Quick Sort
         QuickSort quickSort = new QuickSort();
         int[] myArray2 = {4,6,1,7,3,2,5};
-        int returnedInex = quickSort.pivot(myArray2, 0, 6);
-        System.out.println("Returned Index: " + returnedInex);
+        quickSort.quickSort(myArray2);
         System.out.println(Arrays.toString(myArray2));
     }
 }

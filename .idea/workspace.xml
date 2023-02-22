@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 106 - Added a Breadth First Search method to the BinarySearchTree class.">
+    <list default="true" id="5afcf79d-8b65-46ff-a893-7c10f48f28a8" name="Changes" comment="Section 107 - Added a depth first search preorder method to the BinarySearchTree class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/binarysearchtree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/binarysearchtree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/binarysearchtree/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +68,7 @@
       <workItem from="1676591145250" duration="902000" />
       <workItem from="1676592064995" duration="54000" />
       <workItem from="1676592168605" duration="9020000" />
-      <workItem from="1677017979220" duration="11402000" />
-    </task>
-    <task id="LOCAL-00011" summary="Section 28 - added get method.">
-      <created>1676407959966</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1676407959966</updated>
+      <workItem from="1677017979220" duration="12500000" />
     </task>
     <task id="LOCAL-00012" summary="Section 29 - added set method.">
       <created>1676408577306</created>
@@ -414,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677102765014</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Section 107 - Added a depth first search preorder method to the BinarySearchTree class.">
+      <created>1677104487460</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1677104487460</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +422,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Section 60 - Created new HashTable class, constructor and main class." />
     <MESSAGE value="Section 61 - Created new hash method." />
     <MESSAGE value="Section 62 - Created set hash method." />
     <MESSAGE value="Section 62 - Created get hash method." />
@@ -448,7 +446,8 @@
     <MESSAGE value="Section 100 - Added QuickSort class and pivot method." />
     <MESSAGE value="Section 101 - Added quick sort and quick sort helper methods to class." />
     <MESSAGE value="Section 106 - Added a Breadth First Search method to the BinarySearchTree class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 106 - Added a Breadth First Search method to the BinarySearchTree class." />
+    <MESSAGE value="Section 107 - Added a depth first search preorder method to the BinarySearchTree class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 107 - Added a depth first search preorder method to the BinarySearchTree class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

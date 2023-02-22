@@ -35,7 +35,10 @@ public class Main {
         //System.out.println(myBST.BFS());
 
         //DFS - PreOrder
-        System.out.println(myBST.DFSPreOrder());
+       //System.out.println(myBST.DFSPreOrder());
+
+        //DFS - PostOrder
+        System.out.println(myBST.DFSPostOrder());
 
     }
 }
